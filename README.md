@@ -1,6 +1,7 @@
 # digital-recognition
 
 训练数据来源:
+
 	100条训练记录 https://raw.githubusercontent.com/makeyourownneuralnetwork/makeyourownneuralnetwork/master/mnist_dataset/mnist_train_100.csv
 	10条测试记录 https://raw.githubusercontent.com/makeyourownneuralnetwork/makeyourownneuralnetwork/master/mnist_dataset/mnist_test_10.csv
 
