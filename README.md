@@ -1,5 +1,7 @@
 # digital-recognition
 
+
+因图像数据体积过大, 仅放上数据来源, src/resource文件夹下仅放一个占位用的空文件
 训练数据来源:
 
 	100条训练记录 https://raw.githubusercontent.com/makeyourownneuralnetwork/makeyourownneuralnetwork/master/mnist_dataset/mnist_train_100.csv
