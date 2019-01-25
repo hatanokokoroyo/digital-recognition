@@ -1,6 +1,8 @@
 import numpy
-from src.neural_network import NeuralNetwork
-import sys
+import os
+from com.kokoro.src.neural_network_demo.neural_network import NeuralNetwork
+
+PATH = os.path.abspath('')
 
 
 def main():
@@ -11,7 +13,7 @@ def main():
     learning_rate = 0.3
     network = NeuralNetwork(input_nodes, hide_nodes, output_nodes, learning_rate)
     # 准备数据
-    data_file = open("resource/mnist_train.csv", 'r')
+    data_file = open("resource/mnist_train_100.csv", 'r')
     data_list = data_file.readlines()
     data_file.close()
     print(len(data_list))
